@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.face-image {
+    margin-top: 250px !important;
+    display: flex;
+    justify-content: center;
+}
+
+#happy { 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: orange;
+}
+
+#happy:hover {
+    transform: scale(1.10);
+    transition: 2s ease-out;
+}
+
+
+#sad { 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: Aqua;
+}
+
+#sad:hover {
+    transform: scale(1.10);
+    transition: 2s ease-out;
+}
+
+
+#angry { 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: red;
+}
+
+#angry:hover {
+    transform: scale(1.10);
+    transition: 2s ease-out;
+}
+
+#confused { 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: gray;
+}
+
+#confused:hover {
+    transform: scale(1.10);
+    transition: 2s ease-out;
+}
